@@ -11,6 +11,7 @@ font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 100px;
 }
 .button-primary{
     background-color: #FD6E0A;
@@ -39,4 +40,18 @@ ul> li{
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+}
+/*Header relaed style*/
+.header-top{
+    background-color: #FFF8F3;
+}
+.banner-main{
+    padding: 50px 80px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
